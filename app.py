@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template
+from flask import Flask, jsonify, render_template, url_for
 from flask_pymongo import PyMongo, DESCENDING, ASCENDING
 from os import environ
 import datetime
@@ -16,6 +16,7 @@ xboxdb = mongo.cx['xboxdb']
 
 # Routes to html
 @app.route('/')
+@app.route('/index.html')
 def index():
     return render_template('index.html')
 

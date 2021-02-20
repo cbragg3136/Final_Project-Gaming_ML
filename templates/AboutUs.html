@@ -6,7 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
         <link href="../static/css/styles4.css" rel="Stylesheet" type="text/css" /> 
-
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
         <!------ Include the above in your HEAD tag ---------->
     </head>
 
@@ -23,7 +24,7 @@
                     <span class="strip"></span>
                 </button>
                 <ul id="nav-menu-container">
-                    <li><a href="/">Home</a></li>
+                  <li><a href="/">Home</a></li>
                     <div class="dropdown">
                         <button class="dropbtn">MS Games</button>
                         <div class="dropdown-content">
@@ -50,10 +51,12 @@
         </header>
 
     <main>   
-        <h2 style="text-align:center">Our Team</h2>
-          <div class="row">
-            <div class="card">
-              <div class="col-sm-2">
+      <div class="container-fluid"> 
+        <h2 style="text-align:center;font-size: 400%;">Our Team</h2>
+        <div class="container-fluid mt-4">
+
+            <div class="col-auto mb-3">
+              <div class="card">
                   <img src="../static/images/purple_sus.png" alt="Christi" class="img-thumbnail"  style="width: 70%">
                   <div class="container">
                     <h4>Christi Bragg</h4>
@@ -62,9 +65,9 @@
                   </div>
               </div>
             </div>
-            
-            <div class="card">
-              <div class="col-sm-2">
+
+            <div class="col-auto mb-3">
+              <div class="card">
                   <img src="../static/images/green_sus.png" alt="Dustin" class="img-thumbnail" style="width: 70%">
                   <div class="container">
                     <h4>Dustin Combs</h4>
@@ -73,9 +76,9 @@
                   </div>
               </div>
             </div>
-            
-            <div class="card">
-              <div class="col-sm-2">
+
+            <div class="col-auto mb-3">
+              <div class="card">
                   <img src="../static/images/yellow_sus.png" alt="Lydia" class="img-thumbnail" style="width: 70%">
                   <div class="container">
                     <h4>Lydia Field</h4>
@@ -84,9 +87,10 @@
                   </div>
               </div>
             </div>
-            
-            <div class="card">
-              <div class="col-sm-2">
+        <!-- </div>
+          <div class="row"> -->
+            <div class="col-auto mb-3">
+              <div class="card">
                   <img src="../static/images/orange_sus.png" alt="Shelly" class="img-thumbnail" style="width: 70%">
                   <div class="container">
                     <h4>Shelly Nixon</h4>
@@ -95,9 +99,9 @@
                   </div>
               </div>
             </div>
-            
-            <div class="card">
-              <div class="col-sm-2">
+
+            <div class="col-auto mb-3">
+              <div class="card">
                   <img src="../static/images/cyan_sus.png" alt="Rodrigo" class="img-thumbnail" style="width: 70%">
                   <div class="container">
                     <h4>Rodrigo Reyes</h4>
@@ -106,9 +110,9 @@
                   </div>
               </div>
             </div>
-            
-            <div class="card">
-              <div class="col-sm-2">
+
+            <div class="col-auto mb-3">
+              <div class="card">             
                   <img src="../static/images/red_sus.png" alt="Lowell" class="img-thumbnail" style="width: 70%">
                   <div class="container">
                     <h4>Lowell Vaughen</h4>
@@ -117,8 +121,20 @@
                   </div>
               </div>
             </div>
+
+            <div class="col-auto mb-3">
+              <div class="card">
+                  <img src="../static/images/pink_sus.png" alt="Hannah" class="img-thumbnail" style="width: 70%">
+                  <div class="container">
+                    <h4>Hannah Bridges</h4>
+                    <li><a href="https://www.linkedin.com/in/hannah-bridges-3629a018b/">LinkedIn</a></li>
+                    <li><a href="https://github.com/hannahlbridges">Github</a></li>
+                  </div>
+              </div>
+            </div>
           </div>
-       </main>
+      </div> 
+    </main>
 
         <script>
             document.getElementById('nav-toggle').addEventListener('click', function () {
