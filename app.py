@@ -52,6 +52,10 @@ def msmaphtml():
 def PCmaphtml():
     return render_template('PCMap.html')
 
+@app.route('/ML.html')
+def MLhtml():
+    return render_template('ML.html')
+
 # STEAM
 
 # route to return steam user location by continent
