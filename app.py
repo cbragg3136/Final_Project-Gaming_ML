@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template, url_for
+from flask import Flask, jsonify, render_template
 from flask_pymongo import PyMongo, DESCENDING, ASCENDING
 from os import environ
 import datetime
