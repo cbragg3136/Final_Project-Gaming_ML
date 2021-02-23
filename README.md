@@ -1,12 +1,12 @@
-# Project-2_Gaming-Analysis
+# Project-3_Gaming-Analysis_ML
 
 The goal of this project was to develop a dashboard tool for gaming information.  Our data sources included PC games data from Steam (via api and website scraping) and console game data from Microsoft (by scraping their most played games by country websites.)   
 
 Our github repository is located at:
-https://github.com/cbragg3136/Project-2_Gaming-Analysis.git 
+https://github.com/cbragg3136/Final_Project-Gaming_ML.git 
 
 The Heroku app allows you to selectively display the following:
-https://gaming-project2.herokuapp.com/
+https://gaming-ml.herokuapp.com/
 
 MS console web pages:
 Top 50 Most played games by Country table: 
