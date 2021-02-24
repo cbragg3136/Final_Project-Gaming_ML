@@ -21,3 +21,5 @@ TOP PC Games - ability to create a table pulling from all games on Steam (takes 
 STEAM Top 100 - ability to see the top 100 games on Steam in the present moment based on concurrent players.
 STEAM PLayer Data - the ability to graph games from the top 100 based on concurrent players from the last 5 days (you can pick multiple games and compare them).
 STEAM Player Data - In addition we show a vertical bar chart highlighting the top 5 games and their player size and a donut chart highlighting the volume of players publicly reporting location by continent
+
+Several machine learning models were created to predict game success as measured by Max Concurrant Users (MCUs) based on player generated game tags. The game tags are game descriptors that relate to genre, game features, graphics style etc. To determine the success of our models we primarily used two measures, F1 scores and AUROC scores. F1 scores measure predictive ability but do not account for overfitting, AUROC scores (Area Under the Curve of Receiver Operator Characteristc) delineate true vs false positives at different decision thresholds and therefore is not as influenced by overfitting.
