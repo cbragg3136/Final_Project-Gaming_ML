@@ -51,7 +51,19 @@
   <main>
 
     <section id="recent-games">
-        <h1>Machine Learning Models</h1>
+        <h1 style="font-size: 50px">Machine Learning Models</h1>
+
+        <div class="description">
+            <p>     This page shows the results of several machine learning models created to predict game success
+            as measured by Max Concurrant Users (MCUs) based on player generated game tags.
+            The game tags are game descriptors that relate to genre, game features, graphics style etc.
+            To determine the success of our models we primarily used two measures, F1 scores and
+            AUROC scores. F1 scores measure predictive ability but do not account for overfitting,
+            AUROC scores (Area Under the Curve of Receiver Operator Characteristc) delineate true vs false
+            positives at different decision thresholds and therefore is not as influenced by
+            overfitting.</p>
+        </div>
+
         <div class="flex">
             <div class="box">
                 <a href="#"></a><img src="../static/images/sampling_model.jpg"class="graph"/>
